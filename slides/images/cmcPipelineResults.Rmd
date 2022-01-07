@@ -1,0 +1,169 @@
+---
+title: "R Notebook"
+---
+
+This notebook contains plots/results shared in the AAFS 2022 presentation
+
+
+```{r setup}
+library(tidyverse)
+library(cmcR)
+library(x3ptools)
+source("~/cmas/cmas Functions/cmasFunctions.R")
+```
+
+
+
+```{r}
+scansNotDetrended <- map(list.files("~/nbtrdScans/fadulScans/Fadul_1/cc/",full.names = TRUE,pattern = ".x3p",include.dirs = FALSE)[1:2],
+    function(file){
+      
+      dat <- x3p_read(file)
+          
+          
+          # maskBackground <- unique(c(dat$mask))[1]
+          # 
+          # if(all(str_length(unique(as.vector(dat$mask))) > 7) & !any(str_detect(unique(as.vector(dat$mask)),"FF$"))){
+          #   
+          #   maskBackground <- paste0(maskBackground,"FF")
+          #   
+          # }
+          
+          dat <- dat %>%
+  preProcess_crop(region = "exterior",
+                  radiusOffset = -30) %>%
+  preProcess_crop(region = "interior",
+                  radiusOffset = 200) %>%
+  # preProcess_removeTrend(statistic = "quantile",
+  #                                tau = .5,
+  #                                method = "fn") %>%
+  preProcess_gaussFilter() %>%
+  x3ptools::sample_x3p()
+          
+          # dat <- dat %>%
+          #   preProcess_cropWS(robust = FALSE,
+          #                     croppingProp = .5)
+          
+          dat$mask <- NULL
+          
+          return(dat)
+      
+    })
+
+scansDetrended <- map(list.files("~/nbtrdScans/fadulScans/Fadul_1/cc/",full.names = TRUE,pattern = ".x3p",include.dirs = FALSE)[1:2],
+    function(file){
+      
+      dat <- x3p_read(file)
+          
+          
+          # maskBackground <- unique(c(dat$mask))[1]
+          # 
+          # if(all(str_length(unique(as.vector(dat$mask))) > 7) & !any(str_detect(unique(as.vector(dat$mask)),"FF$"))){
+          #   
+          #   maskBackground <- paste0(maskBackground,"FF")
+          #   
+          # }
+          
+          dat <- dat %>%
+  preProcess_crop(region = "exterior",
+                  radiusOffset = -30) %>%
+  preProcess_crop(region = "interior",
+                  radiusOffset = 200) %>%
+  preProcess_removeTrend(statistic = "quantile",
+                                 tau = .5,
+                                 method = "fn") %>%
+  preProcess_gaussFilter() %>%
+  x3ptools::sample_x3p()
+          
+          # dat <- dat %>%
+          #   preProcess_cropWS(robust = FALSE,
+          #                     croppingProp = .5)
+          
+          dat$mask <- NULL
+          
+          return(dat)
+      
+    })
+
+
+
+x3pListPlot(scansNotDetrended,type = "list")
+x3pListPlot(scansDetrended,type = "list")
+```
+
+```{r}
+comparisonFeatures_notDetrended <- purrr::map_dfr(seq(-30,30,by = 3),
+                                       ~ comparison_allTogether(reference = scansNotDetrended[[1]],
+                                                                target = scansNotDetrended[[2]],
+                                                                
+                                                                theta = .))
+
+comparisonFeatures_detrended <- purrr::map_dfr(seq(-30,30,by = 3),
+                                       ~ comparison_allTogether(reference = scansDetrended[[1]],
+                                                                target = scansDetrended[[2]],
+                                                                
+                                                                theta = .))
+
+cmcPlot(reference = scansNotDetrended[[1]],
+        target = scansNotDetrended[[2]],
+        reference_v_target_CMCs = comparisonFeatures_notDetrended %>%
+          mutate(originalMethodClassif = decision_CMC(cellIndex = cellIndex,
+                                              x = x,
+                                              y = y,
+                                              theta = theta,
+                                              corr = pairwiseCompCor,
+                                              xThresh = 20,
+                                              thetaThresh = 6,
+                                              corrThresh = .5)))$CMCs +
+  theme(strip.text = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank())
+
+cmcPlot(reference = scansDetrended[[1]],
+        target = scansDetrended[[2]],
+        reference_v_target_CMCs = comparisonFeatures_detrended %>%
+          mutate(originalMethodClassif = decision_CMC(cellIndex = cellIndex,
+                                              x = x,
+                                              y = y,
+                                              theta = theta,
+                                              corr = pairwiseCompCor,
+                                              xThresh = 20,
+                                              thetaThresh = 6,
+                                              corrThresh = .5)))$CMCs +
+  theme(strip.text = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank())
+```
+
+```{r}
+load("~/cmcRwriteUp/Revised-Submission/data/cmcCountData.RData")
+
+cmcCountData %>%
+  filter(transThresh == 20 & thetaThresh == 6 & corThresh == .5 & decisionRule == "originalMethodCMCs" & trendRemoved) %>%
+  group_by(type) %>%
+  mutate(prop = n/sum(n)) %>%
+  rename(Type = type) %>%
+  ggplot(aes(x = cmcCount,y = prop,fill = Type)) +
+  geom_bar(stat = "identity") +
+  theme_bw() +
+  theme(legend.position = "bottom") +
+  labs(x = "CMC Count",
+       y = "Relative Frequency") +
+    scale_fill_manual(values = c("#40B0A6","#E1BE6A")) +
+  xlim(c(NA,25))
+
+cmcCountData %>%
+  filter(transThresh == 20 & thetaThresh == 6 & corThresh == .5 & decisionRule == "originalMethodCMCs" & !trendRemoved) %>%
+  group_by(type) %>%
+  mutate(prop = n/sum(n)) %>%
+  rename(Type = type) %>%
+  ggplot(aes(x = cmcCount,y = prop,fill = Type)) +
+  geom_bar(stat = "identity") +
+  theme_bw() +
+  theme(legend.position = "bottom") +
+  labs(x = "CMC Count",
+       y = "Relative Frequency") +
+    scale_fill_manual(values = c("#40B0A6","#E1BE6A")) +
+  xlim(c(NA,25))
+```
+
