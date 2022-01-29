@@ -1,0 +1,1263 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.5.0" title="Shotcut version 21.12.24" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:26:42.920">
+    <property name="length">00:26:42.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:26:42.920"/>
+  </playlist>
+  <chain id="chain0" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain7" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain10" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain13" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain14" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain15" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain16" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain17" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain18" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain19" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain20" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain21" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain22" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain23" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain24" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain25" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain26" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain27" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain28" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain29" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain30" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain31" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain32" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain33" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain34" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain35" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain36" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain37" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain38" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain39" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain40" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain41" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain42" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain43" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain44" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain45" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain46" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain47" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain48" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain49" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain50" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain51" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain52" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain53" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">Original Recordings (snippets are marked)</property>
+    <blank length="00:00:01.520"/>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:08.520"/>
+    <entry producer="chain1" in="00:00:08.560" out="00:00:22.200"/>
+    <entry producer="chain2" in="00:00:22.240" out="00:00:33.720"/>
+    <entry producer="chain3" in="00:00:33.760" out="00:00:34.800"/>
+    <entry producer="chain4" in="00:00:34.840" out="00:00:38.280"/>
+    <entry producer="chain5" in="00:00:38.320" out="00:01:00.320"/>
+    <entry producer="chain6" in="00:01:00.360" out="00:01:05.880"/>
+    <entry producer="chain7" in="00:01:05.920" out="00:01:17.760"/>
+    <entry producer="chain8" in="00:01:17.800" out="00:01:27.040"/>
+    <entry producer="chain9" in="00:01:27.080" out="00:01:55.840"/>
+    <entry producer="chain10" in="00:01:55.880" out="00:02:01.160"/>
+    <entry producer="chain11" in="00:02:01.200" out="00:03:11.160"/>
+    <entry producer="chain12" in="00:03:11.200" out="00:03:24.640"/>
+    <entry producer="chain13" in="00:03:24.680" out="00:03:36.040"/>
+    <entry producer="chain14" in="00:03:36.080" out="00:03:53.280"/>
+    <entry producer="chain15" in="00:03:53.320" out="00:04:15.320"/>
+    <entry producer="chain16" in="00:04:15.360" out="00:04:18.760"/>
+    <entry producer="chain17" in="00:04:18.800" out="00:04:46.240"/>
+    <entry producer="chain18" in="00:04:46.280" out="00:04:49.160"/>
+    <entry producer="chain19" in="00:04:49.200" out="00:06:59.400"/>
+    <entry producer="chain20" in="00:06:59.440" out="00:07:02.040"/>
+    <entry producer="chain21" in="00:07:02.080" out="00:09:10.880"/>
+    <entry producer="chain22" in="00:09:10.920" out="00:09:14.000"/>
+    <entry producer="chain23" in="00:09:14.040" out="00:10:28.960"/>
+    <entry producer="chain24" in="00:10:29.000" out="00:10:33.520"/>
+    <entry producer="chain25" in="00:10:33.560" out="00:12:52.720"/>
+    <entry producer="chain26" in="00:12:52.760" out="00:12:53.320"/>
+    <entry producer="chain27" in="00:12:53.360" out="00:13:42.000"/>
+    <entry producer="chain28" in="00:13:42.040" out="00:13:43.480"/>
+    <entry producer="chain29" in="00:13:43.520" out="00:15:34.360"/>
+    <entry producer="chain30" in="00:15:34.400" out="00:16:03.600"/>
+    <entry producer="chain31" in="00:16:03.640" out="00:16:04.680"/>
+    <entry producer="chain32" in="00:16:04.720" out="00:16:19.280"/>
+    <entry producer="chain33" in="00:16:19.320" out="00:16:22.920"/>
+    <entry producer="chain34" in="00:16:22.960" out="00:17:07.920"/>
+    <entry producer="chain35" in="00:17:07.960" out="00:17:11.520"/>
+    <entry producer="chain36" in="00:17:11.560" out="00:18:54.960"/>
+    <entry producer="chain37" in="00:18:55.000" out="00:19:48.960"/>
+    <entry producer="chain38" in="00:19:49.000" out="00:19:50.280"/>
+    <entry producer="chain39" in="00:19:50.320" out="00:21:01.680"/>
+    <entry producer="chain40" in="00:21:01.720" out="00:21:03.440"/>
+    <entry producer="chain41" in="00:21:03.480" out="00:21:51.720"/>
+    <entry producer="chain42" in="00:21:51.760" out="00:21:53.200"/>
+    <entry producer="chain43" in="00:21:53.240" out="00:22:30.880"/>
+    <entry producer="chain44" in="00:22:30.920" out="00:22:34.040"/>
+    <entry producer="chain45" in="00:22:34.080" out="00:24:09.360"/>
+    <entry producer="chain46" in="00:24:09.400" out="00:25:15.680"/>
+    <entry producer="chain47" in="00:25:15.720" out="00:25:18.640"/>
+    <entry producer="chain48" in="00:25:18.680" out="00:25:53.120"/>
+    <entry producer="chain49" in="00:25:53.160" out="00:25:54.360"/>
+    <entry producer="chain50" in="00:25:54.400" out="00:26:12.880"/>
+    <entry producer="chain51" in="00:26:12.920" out="00:26:14.560"/>
+    <entry producer="chain52" in="00:26:14.600" out="00:26:35.360"/>
+    <entry producer="chain53" in="00:26:35.400" out="00:26:41.400"/>
+  </playlist>
+  <chain id="chain54" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain55" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain56" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain57" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain58" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain59" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain60" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain61" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain62" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain63" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain64" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain65" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain66" out="00:26:41.400">
+    <property name="length">00:26:41.440</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 14.58.25 Joe Zemmels (he_him)'s Personal Meeting Room/video1439428840.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">1cc06f84f52bb3e472986a482dddf4ec</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1439428840.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain67" out="00:01:53.320">
+    <property name="length">00:01:53.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 16.28.36 Joe Zemmels (he_him)'s Personal Meeting Room/video1850308520.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">aa4332fc7dcb597c04a9a173d47ce733</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1850308520.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">Final Video</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="chain54" in="00:00:22.240" out="00:00:34.800"/>
+    <entry producer="chain55" in="00:00:38.320" out="00:01:00.320"/>
+    <entry producer="chain56" in="00:01:27.720" out="00:01:55.840"/>
+    <entry producer="chain57" in="00:02:01.200" out="00:03:11.160"/>
+    <entry producer="chain58" in="00:03:25.120" out="00:03:36.040"/>
+    <entry producer="chain59" in="00:03:53.320" out="00:04:15.320"/>
+    <entry producer="chain60" in="00:04:49.200" out="00:06:59.400"/>
+    <entry producer="chain61" in="00:07:02.080" out="00:09:10.880"/>
+    <entry producer="chain62" in="00:09:14.040" out="00:10:28.960"/>
+    <entry producer="chain63" in="00:10:33.560" out="00:12:52.720"/>
+    <entry producer="chain64" in="00:12:53.360" out="00:13:42.000"/>
+    <entry producer="chain65" in="00:13:43.520" out="00:15:34.360"/>
+    <entry producer="chain66" in="00:16:22.960" out="00:16:52.400"/>
+    <entry producer="chain67" in="00:01:03.800" out="00:01:49.400"/>
+  </playlist>
+  <chain id="chain68" out="00:01:53.320">
+    <property name="length">00:01:53.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 16.28.36 Joe Zemmels (he_him)'s Personal Meeting Room/video1850308520.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">aa4332fc7dcb597c04a9a173d47ce733</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1850308520.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain69" out="00:01:53.320">
+    <property name="length">00:01:53.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 16.28.36 Joe Zemmels (he_him)'s Personal Meeting Room/video1850308520.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">aa4332fc7dcb597c04a9a173d47ce733</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1850308520.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain70" out="00:01:53.320">
+    <property name="length">00:01:53.360</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/jzemm/Documents/Zoom/2022-01-28 16.28.36 Joe Zemmels (he_him)'s Personal Meeting Room/video1850308520.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">aa4332fc7dcb597c04a9a173d47ce733</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">video1850308520.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">Redone final slides (second take used)</property>
+    <entry producer="chain68" in="00:00:00.000" out="00:01:03.760"/>
+    <entry producer="chain69" in="00:01:03.800" out="00:01:49.400"/>
+    <entry producer="chain70" in="00:01:49.440" out="00:01:53.320"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.12.24" in="00:00:00.000" out="00:26:42.920">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <properties name="shotcut:markers">
+      <properties name="0">
+        <property name="text">Marker 1</property>
+        <property name="start">00:00:48.720</property>
+        <property name="end">00:00:48.720</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="1">
+        <property name="text">Marker 2</property>
+        <property name="start">00:00:29.960</property>
+        <property name="end">00:00:29.960</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="2">
+        <property name="text">Marker 3</property>
+        <property name="start">00:01:42.360</property>
+        <property name="end">00:01:42.360</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="3">
+        <property name="text">Marker 4</property>
+        <property name="start">00:02:44.880</property>
+        <property name="end">00:02:44.880</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="4">
+        <property name="text">Marker 5</property>
+        <property name="start">00:03:31.760</property>
+        <property name="end">00:03:31.760</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="5">
+        <property name="text">Marker 6</property>
+        <property name="start">00:04:04.680</property>
+        <property name="end">00:04:04.680</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="6">
+        <property name="text">Marker 7</property>
+        <property name="start">00:06:15.200</property>
+        <property name="end">00:06:15.200</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="7">
+        <property name="text">Marker 8</property>
+        <property name="start">00:08:38.560</property>
+        <property name="end">00:08:38.560</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="8">
+        <property name="text">Marker 9</property>
+        <property name="start">00:09:47.120</property>
+        <property name="end">00:09:47.120</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="9">
+        <property name="text">Marker 10</property>
+        <property name="start">00:12:08.640</property>
+        <property name="end">00:12:08.640</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="10">
+        <property name="text">Marker 11</property>
+        <property name="start">00:13:13.520</property>
+        <property name="end">00:13:13.520</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="11">
+        <property name="text">Marker 12</property>
+        <property name="start">00:14:43.120</property>
+        <property name="end">00:14:43.120</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="12">
+        <property name="text">Marker 13</property>
+        <property name="start">00:15:49.120</property>
+        <property name="end">00:15:49.120</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="13">
+        <property name="text">Marker 14</property>
+        <property name="start">00:16:42.480</property>
+        <property name="end">00:16:42.480</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="14">
+        <property name="text">Marker 15</property>
+        <property name="start">00:17:10.960</property>
+        <property name="end">00:17:10.960</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="15">
+        <property name="text">Marker 16</property>
+        <property name="start">00:19:23.480</property>
+        <property name="end">00:19:23.480</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="16">
+        <property name="text">Marker 17</property>
+        <property name="start">00:21:26.440</property>
+        <property name="end">00:21:26.440</property>
+        <property name="color">#008000</property>
+      </properties>
+      <properties name="17">
+        <property name="text">Marker 18</property>
+        <property name="start">00:24:42.840</property>
+        <property name="end">00:24:42.840</property>
+        <property name="color">#008000</property>
+      </properties>
+    </properties>
+    <property name="shotcut:scaleFactor">2.85037</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="both"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2" hide="both"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
